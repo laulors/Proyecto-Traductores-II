@@ -4,7 +4,6 @@
 
 #include "lexico.h"
 #include "pila.h"
-#include "Sintactico.h"
 
 using namespace std;
 
