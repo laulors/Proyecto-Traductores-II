@@ -4,7 +4,6 @@
 
 #include "lexico.h"
 #include "pila.h"
-#include "Sintactico.h"
 
 using namespace std;
 
@@ -41,8 +40,7 @@ int main(int argc, char *argv[]){
 	cout << "accion: " << accion << endl<<endl;
 
 	/*dado que el valor de la accion es numero positivo entonces se debe de realizar desplazamiento. Implica meter
-	el simbolo actual en la pila, ademas del numero 3 y pedir
-	un sigSimbolo.
+	el simbolo actual en la pila, y pedir un sigSimbolo.
 	*/
 	if (lexico.tipo == lexico.OP_ADICION)
 		lexico.tipo = 1;
