@@ -3,7 +3,7 @@
 ElementoPila::ElementoPila()
 {
 	this->elementoPila = "$";
-	this->tipoElementoPila = 2;
+	this->tipoElementoPila = 23;
 }
 
 ElementoPila::ElementoPila(string elemento, int tipo) {
@@ -13,5 +13,5 @@ ElementoPila::ElementoPila(string elemento, int tipo) {
 
 void ElementoPila::mostrarElemento()
 {
-	cout << elementoPila << endl;
+	cout << elementoPila <<" ";
 }

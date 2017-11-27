@@ -1,3 +1,6 @@
+#ifndef _ELEMENTOPILA
+#define _ELEMENTOPILA
+
 #include <iostream>
 #include <string>
 
@@ -13,3 +16,4 @@ public:
 	void mostrarElemento();
 };
 
+#endif

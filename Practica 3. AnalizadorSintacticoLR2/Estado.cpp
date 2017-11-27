@@ -1,14 +1,13 @@
 #include "Estado.h"
 
-Estado::Estado(string datoPila, int nestado)
+Estado::Estado(string datoPila, string nestado, string telemento)// es un desplazamiento?
 {
 	this->elementoPila = datoPila;
-	this->tipoElemento = "Estado. ";
+	this->tipoElemento = telemento;
 	this->numeroEstado = nestado;
 }
 
 void Estado::MostrarEstado()
 {
-	cout << elementoPila << endl;
-	cout << tipoElemento << endl;
+	cout <<" Estado: " << tipoElemento << " " << numeroEstado << endl;
 }

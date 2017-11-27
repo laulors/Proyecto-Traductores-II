@@ -3,7 +3,7 @@
 
 class Terminal: public ElementoPila
 {
-protected:
+public:
 	string tipoElemento;
 	int numeroTerminal;
 	Terminal(string datoPila);

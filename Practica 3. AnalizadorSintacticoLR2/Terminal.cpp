@@ -1,12 +1,12 @@
 #include "Terminal.h"
 
-Terminal::Terminal(string datoPila)
+Terminal::Terminal(string datoPila)// es el de aceptacion
 {
 	this->elementoPila = datoPila;
-	this->tipoElemento = "Terminal";
+	this->tipoElemento = "Terminal. ";
 }
 
 void Terminal::mostrarInfoTerminal()
 {
-	cout << elementoPila << endl;
+	cout <<tipoElemento<< elementoPila << endl;
 }

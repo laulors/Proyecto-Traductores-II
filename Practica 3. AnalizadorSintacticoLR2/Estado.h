@@ -1,11 +1,11 @@
 #pragma once
-#include "ElementoPila.h"
+#include "pila.h"
+
 class Estado: public ElementoPila
 {
 public:
 	string tipoElemento;
-	int numeroEstado;
-	Estado(string datoPila, int nestado);
+	string numeroEstado;
+	Estado(string datoPila, string nestado, string telemento);
 	void MostrarEstado();
 };
-
