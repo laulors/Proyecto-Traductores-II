@@ -1,0 +1,22 @@
+void Suma()
+{
+	int a;
+	int b;
+	int c;
+	a = 10;
+	b = 11;
+	c = a + b;
+}
+
+
+
+int main(){
+	int a;
+	int b;
+	a = 2;
+	b = 3;
+	int c;
+	c = a + b;
+	
+	Suma();
+}

@@ -1,0 +1,155 @@
+# depslib dependency file v1.0
+1511932681 source:c:\users\laura\downloads\generacion-v1\cb generacion\gramatica5.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"sintactico.h"
+
+1511933903 c:\users\laura\downloads\generacion-v1\cb generacion\sintactico.h
+	<iostream>
+	<vector>
+	"lexico.h"
+	"pila.h"
+	"tabla.h"
+	"reglas.h"
+
+1511933528 c:\users\laura\downloads\generacion-v1\cb generacion\lexico.h
+	<iostream>
+	<string>
+	<cstring>
+
+1511934090 c:\users\laura\downloads\generacion-v1\cb generacion\pila.h
+	<list>
+	<iostream>
+	<string>
+
+1511933110 c:\users\laura\downloads\generacion-v1\cb generacion\tabla.h
+	<iostream>
+	<fstream>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+	<ctype.h>
+
+1511932673 c:\users\laura\downloads\generacion-v1\cb generacion\reglas.h
+	"pila.h"
+	"tablaSimbolos.h"
+	"simbolo.h"
+	<fstream>
+	<sstream>
+
+1511931095 c:\users\laura\downloads\generacion-v1\cb generacion\tablasimbolos.h
+	<iostream>
+	"simbolo.h"
+
+1513044665 c:\users\laura\downloads\generacion-v1\cb generacion\simbolo.h
+
+1511933250 source:c:\users\laura\downloads\generacion-v1\cb generacion\lexico.cpp
+	"lexico.h"
+
+1513225413 source:c:\users\laura\dropbox\2017-b\seminario de traductores ii\practica 2\stl2\pila.cpp
+	"Pila.h"
+
+1513139157 c:\users\laura\dropbox\2017-b\seminario de traductores ii\practica 2\stl2\pila.h
+	<list>
+	<iostream>
+	<string>
+
+1512013478 source:c:\users\laura\dropbox\2017-b\seminario de traductores ii\practica 2\stl2\gramatica5.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"sintactico.h"
+
+1513223665 c:\users\laura\dropbox\2017-b\seminario de traductores ii\practica 2\stl2\sintactico.h
+	<iostream>
+	<vector>
+	"Lexico.h"
+	"Pila.h"
+	"Terminal.h"
+	"Tabla.h"
+	"Reglas.h"
+
+1513206283 c:\users\laura\dropbox\2017-b\seminario de traductores ii\practica 2\stl2\lexico.h
+	<iostream>
+	<string>
+	<cstring>
+	<fstream>
+
+1513207707 c:\users\laura\dropbox\2017-b\seminario de traductores ii\practica 2\stl2\tabla.h
+	<iostream>
+	<fstream>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+	<ctype.h>
+
+1513225657 c:\users\laura\dropbox\2017-b\seminario de traductores ii\practica 2\stl2\reglas.h
+	"Pila.h"
+	"TablaSimbolos.h"
+	"NoTerminal.h"
+	"Simbolo.h"
+	"TablaErrores.h"
+	<fstream>
+	<sstream>
+
+1513206882 c:\users\laura\dropbox\2017-b\seminario de traductores ii\practica 2\stl2\tablasimbolos.h
+	<iostream>
+	"Simbolo.h"
+	<vector>
+
+1513140679 c:\users\laura\dropbox\2017-b\seminario de traductores ii\practica 2\stl2\simbolo.h
+	<string>
+	<string.h>
+	<iostream>
+
+1513206477 source:c:\users\laura\dropbox\2017-b\seminario de traductores ii\practica 2\stl2\lexico.cpp
+	"Lexico.h"
+
+1511935221 c:\users\laura\dropbox\2017-b\seminario de traductores ii\practica 2\stl2\terminal.h
+	"pila.h"
+
+1513206636 source:c:\users\laura\dropbox\2017-b\seminario de traductores ii\practica 2\stl2\terminal.cpp
+	"Terminal.h"
+
+1513139085 c:\users\laura\dropbox\2017-b\seminario de traductores ii\practica 2\stl2\noterminal.h
+	"pila.h"
+
+1511936428 c:\users\laura\dropbox\2017-b\seminario de traductores ii\practica 2\stl2\tablaerrores.h
+	<vector>
+	"string.h"
+	"string"
+	<iostream>
+
+1513225838 source:c:\users\laura\dropbox\2017-b\seminario de traductores ii\practica 2\stl2\noterminal.cpp
+	"NoTerminal.h"
+
+1513225836 source:c:\users\laura\dropbox\2017-b\seminario de traductores ii\practica 2\stl2\tablaerrores.cpp
+	"TablaErrores.h"
+
+1513206886 source:c:\users\laura\dropbox\2017-b\seminario de traductores ii\practica 2\stl2\tablasimbolos.cpp
+	"tablaSimbolos.h"
+
+1513225436 source:c:\users\laura\dropbox\2017-b\seminario de traductores ii\practica 2\stl2\simbolo.cpp
+	"Simbolo.h"
+
+1513208715 source:c:\users\laura\dropbox\2017-b\seminario de traductores ii\practica 2\stl2\principal.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"Sintactico.h"
+
+1513225395 source:c:\users\laura\dropbox\2017-b\seminario de traductores ii\practica 2\stl2\tabla.cpp
+	"Tabla.h"
+
+1513207511 source:c:\users\laura\dropbox\2017-b\seminario de traductores ii\practica 2\stl2\sintactico.cpp
+	"Sintactico.h"
+

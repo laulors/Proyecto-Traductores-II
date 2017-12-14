@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="STL2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/STL2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/STL2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Lexico.cpp" />
+		<Unit filename="Lexico.h" />
+		<Unit filename="NoTerminal.cpp" />
+		<Unit filename="NoTerminal.h" />
+		<Unit filename="Pila.cpp" />
+		<Unit filename="Pila.h" />
+		<Unit filename="Principal.cpp" />
+		<Unit filename="Reglas.h" />
+		<Unit filename="Simbolo.cpp" />
+		<Unit filename="Simbolo.h" />
+		<Unit filename="Sintactico.h" />
+		<Unit filename="Tabla.cpp" />
+		<Unit filename="Tabla.h" />
+		<Unit filename="TablaErrores.cpp" />
+		<Unit filename="TablaErrores.h" />
+		<Unit filename="TablaSimbolos.cpp" />
+		<Unit filename="TablaSimbolos.h" />
+		<Unit filename="Terminal.cpp" />
+		<Unit filename="Terminal.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
